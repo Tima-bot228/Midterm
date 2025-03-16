@@ -14,7 +14,7 @@
    - **Decorator** позволяет динамически добавлять молоко, карамель и другие добавки.
    - Допалнительно выводит суммы в (₸ || ₽ || $)
 
-**Примеры работы **
+**Примеры работы**
 ```
 Enter payment method (Halyk Bank || Forte Bank || Kaspi Bank): halykbank
 Enter amount: 10000
@@ -22,7 +22,7 @@ Are you sure? Enter '1234' to confirm payment.
 1234
 Processing Halyk Bank payment: 10000.0₸`
 ```
-**Не правильный код **
+**Не правильный код**
 ```
 Are you sure? Enter '1234' to confirm payment.
 5678
