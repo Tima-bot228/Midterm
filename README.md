@@ -16,17 +16,31 @@
 
 **Примеры работы**
 ```
-Enter payment method (Halyk Bank || Forte Bank || Kaspi Bank): halykbank
-Enter amount: 10000
+Enter payment method (Kaspi Bank || PayPal || Crypto): k
+Enter amount: 500000
+Enter details (Card Number || PayPal Email || Crypto Wallet): 4433434456785236
 Are you sure? Enter '1234' to confirm payment.
 1234
-Processing Halyk Bank payment: 10000.0₸`
+Processing Kaspi Bank payment: 500000.0₸
+Transaction 1dc455a6-aecf-4c8e-b80f-c6efc4af5566 - COMPLETED
+
+Transaction History:
+1dc455a6-aecf-4c8e-b80f-c6efc4af5566 - COMPLETED
+
 ```
 **Не правильный код**
 ```
+Enter payment method (Kaspi Bank || PayPal || Crypto): k
+Enter amount: 500000
+Enter details (Card Number || PayPal Email || Crypto Wallet): 1234567891234567
 Are you sure? Enter '1234' to confirm payment.
-5678
-Payment canceled. Incorrect confirmation code.
+1452
+Payment canceled.
+Transaction 4f368a6c-ee27-41b2-9034-73609b3e0ebd - CANCELED
+
+Transaction History:
+4f368a6c-ee27-41b2-9034-73609b3e0ebd - CANCELED
+
 ```
 
 **Пример работы (Coffee Shop Simulator)**
